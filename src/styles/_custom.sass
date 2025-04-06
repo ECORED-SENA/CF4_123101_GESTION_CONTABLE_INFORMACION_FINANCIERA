@@ -2,18 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 66%
+    right: 58%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 32%
+    right: 22%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 5%
+    top: 24%
+    right: 74%
 
 @keyframes float1
   0%
@@ -35,6 +35,9 @@
 
 .banner-interno__titulo__icono i
   color: $color-primario
+.banner-principal__img
+  @media screen and (min-width: $bp-min-sm)
+    padding-top: 0
 
 figcaption
   font-weight: normal
@@ -144,3 +147,5 @@ figcaption
   border-color: #FEEAD4
 .tabla-a th, table td 
   text-align: start
+.banner-principal__row .banner-principal__img
+  width: 500px !important
