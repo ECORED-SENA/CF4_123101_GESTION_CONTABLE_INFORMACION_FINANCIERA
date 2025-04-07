@@ -123,16 +123,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Estatuto Tributario (ET) - Decreto 0624 de 1989',
-      tipo: 'Libro',
-      link: 'https://estatuto.co/',
+      tema: 'Conceptos y elementos de los impuestos',
+      referencia:
+        'Presidencia de la República. (1989). Decreto 624 de 1989: Por el cual se expide el Estatuto Tributario. Diario Oficial No. 38.697.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6533',
     },
     {
-      tema: 'Tema 2',
-      referencia: 'Secretaria de hacienda de Bogotá',
+      tema: 'Estructura y clasificación de los impuestos',
+      referencia:
+        'Congreso de Colombia. (2018). Ley 1943 de 2018: Por la cual se expiden normas para el restablecimiento del equilibrio del presupuesto general y se dictan otras disposiciones. Diario Oficial No. 50.782.',
       tipo: 'Página web',
-      link: 'https://www.shd.gov.co/shd/',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=30036049',
+    },
+    {
+      tema: 'De acuerdo con normativa',
+      referencia:
+        'Congreso de Colombia. (2019). Ley 2010 de 2019: Por medio de la cual se adoptan normas para promover el crecimiento económico. Diario Oficial No. 51.101.',
+      tipo: 'Página web',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=89995',
+    },
+    {
+      tema: 'Responsabilidades',
+      referencia:
+        'Congreso de Colombia. (2022). Ley 2277 de 2022: Por medio de la cual se adopta una reforma tributaria para la igualdad y la justicia social. Diario Oficial No. 52.230.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=199883',
     },
   ],
   glosario: [
