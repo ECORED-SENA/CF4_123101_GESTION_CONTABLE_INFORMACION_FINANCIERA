@@ -7,7 +7,7 @@
         span 1
       h1 Impuestos
     
-    p Los impuestos han sido una herramienta fundamental en la organización de las sociedades desde la antigüedad. Surgieron como un mecanismo para financiar el mantenimiento del poder, la infraestructura y las necesidades de los gobiernos
+    p Los impuestos han sido una herramienta fundamental en la organización de las sociedades desde la antigüedad. Surgieron como un mecanismo para financiar el mantenimiento del poder, la infraestructura y las necesidades de los gobiernos.
 
     .bg-full-width
       .p-4.p-md-5
@@ -131,7 +131,7 @@
             p.mb-0 Impuesto al patrimonio.
           li.mb-0.d-flex
             i.far.fa-folder-open.bg-color-5
-            p.mb-0Impuesto sobre la renta y complementarios
+            p.mb-0Impuesto Sobre la renta y complementarios
           li.mb-0.d-flex
             i.far.fa-folder-open.bg-color-5
             p.mb-0 Impuesto de industria y comercio (ICA).
@@ -162,7 +162,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto  Nacionales, departamentales y distritales
     
-    p.mb-4 En el contexto tributario colombiano, los impuestos se encuentran clasificados en nacionales, departamental y municipal; por ende, es importante tener en cuenta el sujeto activo que se encuentra delegado para administrar, controlar y recaudar cada uno de los impuestos, además de analizar la normativa que aplica para cada uno de estos.
+    p.mb-4 En el contexto tributario colombiano, los impuestos se encuentran clasificados en nacionales, departamentales y municipales; por ende, es importante tener en cuenta el sujeto activo que se encuentra delegado para administrar, controlar y recaudar cada uno de los impuestos, además de analizar la normativa que aplica para cada uno de estos.
 
     .row.mb-5
       .col-lg-6.order-2
@@ -170,7 +170,7 @@
           img(src="@/assets/curso/tema1/10.svg", data-aos="zoom-in")
       .col-lg-6.order-1.mb-3.mb-lg-0
         h3.bg-color-4.tarjeta.p-3 Impuestos nacionales
-        p(data-aos="fade-left") Son impuestos administrados por la nación, siendo esta su ámbito de aplicación. Son emitidos por el poder ejecutivo y sancionados por el presidente de la república una vez hayan sido aprobados por el congreso.
+        p(data-aos="fade-left") Son impuestos administrados por la nación, siendo este su ámbito de aplicación. Son emitidos por el poder ejecutivo y sancionados por el presidente de la república una vez que hayan sido aprobados por el congreso.
         h5.mb-5 Entre los impuestos nacionales encontramos, principalmente:
         ol.lista-ol--cuadro.ms-4
           li 
@@ -234,7 +234,7 @@
                     img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
 
               h3.text-center Exentos
-              p Son bienes que por normativa se encuentran gravados a la tarifa del 0%. Quienes produzcan bienes exentos, son responsables del impuesto a las ventas, y por tanto deben declarar IVA, pero quienes comercialicen bienes exentos no son responsables del impuesto a las ventas. De este modo, sólo los productores de bienes exentos pueden solicitar como descuento el IVA pagado en sus compras. Se encuentran señalados en los artículos 477 a 481 del Estatuto Tributario (ET).
+              p Son bienes que por normativa se encuentran gravados a la tarifa del 0%. Quienes produzcan bienes exentos son responsables del impuesto a las ventas y, por tanto, deben declarar IVA, pero quienes comercialicen bienes exentos no son responsables del impuesto a las ventas. De este modo, sólo los productores de bienes exentos pueden solicitar como descuento el IVA pagado en sus compras. Se encuentran señalados en los artículos 477 a 481 del Estatuto Tributario (ET).
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -273,7 +273,7 @@
                 li.d-flex 
                   .lista-ol--cuadro__vineta
                     span 3
-                  | Que, en el establecimiento de comercio, oficina, sede, local o negocio no se desarrollen actividades bajo franquicia, concesión, regalía, autorización o cualquier otro sistema que implique la explotación de intangibles.
+                  | Que, en el establecimiento de comercio, oficina, sede, local o negocio, no se desarrollen actividades bajo franquicia, concesión, regalía, autorización o cualquier otro sistema que implique la explotación de intangibles.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -378,7 +378,7 @@
           .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
               div(titulo="Sujeto activo")
-                p.mb-0 Es el Estado y es administrado por la Dirección de impuestos y Aduanas Nacionales (DIAN).
+                p.mb-0 Es el Estado y es administrado por la Dirección de Impuestos y Aduanas Nacionales (DIAN).
               div(titulo="Sujeto pasivo")
                 p.mb-0 Son los contribuyentes obligados a declarar de acuerdo con los requisitos establecidos en la norma.
               div(titulo="Hecho generador")
@@ -408,10 +408,10 @@
               ul.lista-ul--color
                 li.mb-4.d-flex
                   i.far.fa-folder-open.bg-color-7
-                  p.mb-0 <b>Sujeto activo:</b>  es un impuesto administrado por la Dirección de impuestos y Aduanas Nacionales (DIAN). 
+                  p.mb-0 <b>Sujeto activo:</b>  es un impuesto administrado por la Dirección de Impuestos y Aduanas Nacionales (DIAN). 
                 li.mb-4.d-flex
                   i.far.fa-folder-open.bg-color-7
-                  p.mb-0Impuesto <b>Hecho generador</b> recae sobre la realización de las transacciones financieras, mediante la cual se disponga recursos depositados en las cuentas corrientes o de ahorro, así como en cuentas de depósito en el Banco de la República, y los giros de cheques de gerencia.  Art 871 Estatuto Tributario (ET).
+                  p.mb-0Impuesto <b>Hecho generador:</b> recae sobre la realización de las transacciones financieras, mediante la cual se disponga recursos depositados en las cuentas corrientes o de ahorro, así como en cuentas de depósito en el Banco de la República, y los giros de cheques de gerencia.  Art. 871 Estatuto Tributario (ET).
                 li.mb-4.d-flex
                   i.far.fa-folder-open.bg-color-7
                   p.mb-0Impuesto <b>Base gravable:</b>  valor total de la transacción financiera.
@@ -523,7 +523,7 @@
               img(src="@/assets/curso/tema1/29.svg", data-aos="zoom-in")
           .col-lg-10.order-1.mb-3.mb-lg-0
             p Este impuesto fue creado mediante la Ley 1943 de 2018 y ratificado en la Ley 2010 de 2019.
-            p <b>El artículo 903 del Estatuto Tributario (ET) expresa</b> “es un modelo de tributación opcional de determinación integral, de declaración anual y anticipo bimestral, que integra el impuesto sobre la renta, el impuesto nacional al consumo y el impuesto de industria y comercio consolidado, a cargo de los contribuyentes que opten voluntariamente por acogerse al mismo”.
+            p <b>El artículo 903 del Estatuto Tributario (ET) expresa.</b> “es un modelo de tributación opcional de determinación integral, de declaración anual y anticipo bimestral, que integra el impuesto sobre la renta, el impuesto nacional al consumo y el impuesto de industria y comercio consolidado, a cargo de los contribuyentes que opten voluntariamente por acogerse al mismo”.
         .row.mb-5
           .col-lg-5.order-2
             figure
@@ -531,7 +531,7 @@
           .col-lg-7.order-1.mb-3.mb-lg-0
             h5.mb-5 ARTÍCULO 904- Estatuto Tributario (ET). Hecho generador y base gravable del impuesto unificado bajo el régimen simple de tributación (simple). 
             p El hecho generador del impuesto unificado bajo el régimen simple de tributación (SIMPLE) es la obtención de ingresos susceptibles de producir un incremento en el patrimonio, y su base gravable está integrada por la totalidad de los ingresos brutos, ordinarios y extraordinarios, percibidos en el respectivo periodo gravable.
-            p Para el caso del impuesto de industria y comercio consolidado, el cual se integra al impuesto unificado bajo el régimen simple de tributación (SIMPLE), se mantienen la autonomía de los entes territoriales para la definición de los elementos del hecho generador, base gravable, tarifa y sujetos pasivos, de conformidad con las leyes vigentes.
+            p Para el caso del impuesto de industria y comercio consolidado, el cual se integra al impuesto unificado bajo el régimen simple de tributación (SIMPLE), se mantiene la autonomía de los entes territoriales para la definición de los elementos del hecho generador, base gravable, tarifa y sujetos pasivos, de conformidad con las leyes vigentes.
             div.bg-color-8.tarjeta.p-5.mb-5
               p.mb-0 <b>PARÁGRAFO.</b> Los ingresos constitutivos de ganancia ocasional no integran la base gravable del impuesto unificado bajo el régimen simple de tributación (SIMPLE). Tampoco integran la base gravable los ingresos no constitutivos de renta ni ganancia ocasional. Recuerde explorar el Estatuto Tributario (ET) en el Libro octavo, Art. 903 al 916, para ampliar sus conocimientos.
 
@@ -565,8 +565,8 @@
                 img(src="@/assets/curso/tema1/33.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4.mb-5 3. Loterías foráneas
-              p Este impuesto se aplica a los premios de las loterías y se conoce como el impuesto a ganadores, aunado a ello, recae sobre las empresas de lotería y operadores autorizadas. 
-              p La venta de lotería foráneas en jurisdicción del Distrito Capital genera a su favor y, a cargo de las empresas de lotería u operadores autorizados, un impuesto del diez por ciento (10%) sobre el valor nominal de cada billete o fracción. 
+              p Este impuesto se aplica a los premios de las loterías y se conoce como el impuesto a ganadores; aunado a ello, recae sobre las empresas de lotería y operadores autorizados. 
+              p La venta de loterías foráneas en jurisdicción del Distrito Capital genera a su favor y, a cargo de las empresas de lotería u operadores autorizados, un impuesto del diez por ciento (10%) sobre el valor nominal de cada billete o fracción. 
               p Los ganadores de premios de lotería pagarán al Distrito Capital, según el caso, un impuesto del diecisiete por ciento (17%) sobre el valor nominal del premio, valor que será retenido por la lotería responsable u operador autorizado al momento de pagar el premio (Secretaría Distrital de Hacienda, 2020, 28 de octubre).
 
     h3.bg-color-4.tarjeta.p-3.mb-4 Impuestos Municipales
@@ -608,7 +608,7 @@
             p.mb-0 Ventas por el sistema de clubes.
           li.mb-0.d-flex
             i.far.fa-folder-open.bg-color-13
-            p.mb-0 La venta de entradas a: teatros, conciertos, cines, plaza de toros, hipódromos, circos y demás espectáculos públicos.
+            p.mb-0 La venta de entradas a teatros, conciertos, cines, plazas de toros, hipódromos, circos y demás espectáculos públicos.
       div(titulo="Impuesto de delineación urbana")
         p.mb-0 Es un impuesto distrital que recae sobre la ejecución de obras o construcciones con licencia de construcción o reconocimiento. Es aplicable a construcciones nuevas y/o remodelaciones.
       div(titulo="Sobretasa a la gasolina motor y al ACPM ")

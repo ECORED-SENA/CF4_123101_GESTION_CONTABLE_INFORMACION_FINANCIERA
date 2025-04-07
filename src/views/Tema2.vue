@@ -41,7 +41,7 @@
           .col-lg-4.mb-3.mb-lg-0
             div.bg-color-12.tarjeta.p-4.mb-5(data-aos="fade-right").h-100
               h5 Persona jurídica
-              p.mb-0 Se llama persona jurídica, una persona ficticia, capaz de ejercer derechos y contraer obligaciones civiles, y de ser representada judicial y extrajudicialmente. Art. 633 Código Civil. En términos generales hablamos de las sociedades que realizan un contrato de sociedad, donde realizan un aporte de dinero, trabajo con el fin de distribuirse las utilidades al final del periodo.
+              p.mb-0 Se llama persona jurídica a una persona ficticia, capaz de ejercer derechos y contraer obligaciones civiles, y de ser representada judicial y extrajudicialmente. Art. 633 Código Civil. En términos generales, hablamos de las sociedades que realizan un contrato de sociedad, donde realizan un aporte de dinero o trabajo con el fin de distribuirse las utilidades al final del periodo.
     
     separador
 
@@ -62,7 +62,7 @@
 
     .bg-full-width.bg-color-2
       .px-4.px-md-5.py-4
-        p.mb-4 A este régimen pertenecen las personas naturales y jurídicas, sucesiones ilíquidas que al cumplir los requisitos establecidos en la norma legal vigente deben ser declarantes del impuesto de renta y sus complementarios. En el caso de las personas naturales, que no cumplan con los requerimientos establecidos se consideran no declarantes del impuesto de renta y sus complementarios.
+        p.mb-4 A este régimen pertenecen las personas naturales y jurídicas, sucesiones ilíquidas que, al cumplir los requisitos establecidos en la norma legal vigente, deben ser declarantes del impuesto de renta y sus complementarios. En el caso de las personas naturales, que no cumplan con los requerimientos establecidos, se consideran no declarantes del impuesto de renta y sus complementarios.
         .row.mb-5.justify-content-center
           .col-lg-4.order-2.ps-lg-0
             figure
@@ -225,7 +225,7 @@
             ul.lista-ul--color.mb-0
               li.mb-5.d-flex
                 i.far.fa-folder-open.bg-color-14
-                p.mb-0 La nación, las entidades territoriales, las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, las áreas Metropolitanas, la Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado, las superintendencias y las unidades administrativas especiales, siempre y cuando no se señalen en la Ley como contribuyentes.
+                p.mb-0 La Nación, las entidades territoriales, las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, las áreas metropolitanas, la Sociedad Nacional de la Cruz Roja Colombiana y su sistema federado, las superintendencias y las unidades administrativas especiales, siempre y cuando no se señalen en la ley como contribuyentes.
               li.mb-3.d-flex
                 i.far.fa-folder-open.bg-color-14
                 p.mb-0 Las sociedades de mejoras públicas, las asociaciones de padres de familia, los organismos de acción comunal, las juntas de defensa civil, las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales, las asociaciones de exalumnos, las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por este y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.
