@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre obligaciones tributarias, que clasifica los impuestos en nacionales, departamentales y municipales. Detalla los elementos de los impuestos, como sujeto activo y pasivo, hecho generador, base gravable y tarifa. Explica los tipos de impuestos, diferenciando entre directos e indirectos. Presenta los regímenes tributarios: ordinario, especial y simple. Finalmente, menciona responsabilidades tributarias como el Registro Único Tributario (RUT) y la declaración y pago según la actividad económica")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

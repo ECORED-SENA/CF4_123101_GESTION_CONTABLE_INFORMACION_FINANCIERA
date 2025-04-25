@@ -216,7 +216,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto No contribuyentes
 
-        h5.mb-5 De acuerdo con el artículo 22 del Estatuto Tributario (ET) se encuentran
+        h5.mb-5 De acuerdo con el artículo 22 del Estatuto Tributario (ET) se encuentran:
         .row.mb-5.justify-content-center
           .col-lg-5.order-lg-2.mb-3.mb-lg-0
             figure
@@ -252,9 +252,10 @@
 
     .row.justify-content-center
       .col-lg-8
-        .titulo-figura.mb-4
+        .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
-          span Responsabilidades tributarias
+          span Responsabilidades tributarias 
+
         .tabla-a.color-acento-botones
           table
             caption Tomado de: Legis (2019, 16 de abril).

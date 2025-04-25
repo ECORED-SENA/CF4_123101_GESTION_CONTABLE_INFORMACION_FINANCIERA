@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'obligaciones tributarias, territoriales y nacionales.',
+    Name: 'Obligaciones tributarias, territoriales y nacionales',
     Description:
       'En este componente formativo tendrá la oportunidad de abordar las generalidades acerca de los impuestos, su estructura, clasificación, tipos de contribuyentes e importancia que tiene para el sostenimiento del Estado. Los impuestos se dividen de acuerdo con su estructura tributaria en nacionales, municipales y departamentales y según las necesidades del Estado, para ello tendrá la oportunidad de comprender su organización, clasificación y las normas establecidas y vigentes, como un ejercicio fundamental para el proceso de formación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -107,7 +107,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/123101_CF04_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -183,7 +183,7 @@ export default {
     {
       termino: 'Impuesto',
       significado:
-        'Es el tributo que stablece la ley a favor del Sujeto Activo, y a cargo de los sujetos a quienes se les atribuya la realización del hecho imponible de la obligación tributaria.',
+        'Es el tributo que establece la ley a favor del Sujeto Activo, y a cargo de los sujetos a quienes se les atribuya la realización del hecho imponible de la obligación tributaria.',
     },
     {
       termino: 'Impuesto de industria, comercio, avisos y tableros',
@@ -233,96 +233,83 @@ export default {
   referencias: [
     {
       referencia:
-        'Aprendizaje, S. N. (s.f.). Biblioteca SENA. Obtenido de Biblioteca SENA: ',
-      link: 'https://www.sena.edu.co/es-co/Paginas/default.aspx',
-    },
-    {
-      referencia:
-        'CCB. (s.f.). Cámara de Comercio de Bogotá .Recuperado de Cámara de Comercio de Bogotá: ',
+        'Cámara de Comercio de Bogotá. (2025). Cámara de Comercio de Bogotá.',
       link: 'https://www.ccb.org.co/',
     },
     {
       referencia:
-        'CTCP. (2018). Consejo Técnico de la Contaduría Pública. Obtenido de Consejo Técnico de la Contaduría Pública: ',
-      link: 'http://www.ctcp.gov.co/',
+        'Cano Morales, Abel María, Restrepo Pineda, Carlos Mario, & Villa Monsalve, Omar Osvaldo. (2019). La primera reforma tributaria en la historia de la humanidad. Entramado, 15(1), 152-163.',
+      link: 'https://doi.org/10.18041/1900-3803/entramado.1.5419',
     },
     {
       referencia:
-        'Digital, G. (s.f.). Secretaria Distrital de Hacienda . Obtenido de Secretaria Distrital de Hacienda : ',
-      link: 'https://www.shd.gov.co/shd/contribuyentes',
-    },
-    {
-      referencia:
-        'Especial, U. A. (2018). Junta Central de Contadores. Obtenido de Junta Central de Contadores: ',
-      link: 'https://www.jcc.gov.co/',
-    },
-    {
-      referencia:
-        'Eficiente, C. C. (2012). Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas. [En línea] 2012. [Citado el: 4 de Abril de 2016.]. Disponible en internet: ',
+        'Colombia Compra Eficiente. (2017). Guía para la codificación de bienes y servicios de acuerdo con el código estándar de productos y servicios de Naciones Unidas, V.14.080.',
       link:
-        'http://www. colombiacompra. gov. co/sites/default/files/manuales/manualclasificador. pdf.',
+        'https://www.colombiacompra.gov.co/wp-content/uploads/2024/08/cce_guia_codificacion_bienes.pdf',
     },
     {
       referencia:
-        'Gonzalez, F., & Calderón, V. (2002). Las reformas tributarias en Colombia durante el siglo XX (II). Boletines de divulgación económica, 9.',
-      link: '',
+        'Consejo Técnico de la Contaduría Pública. (s.f.). Consejo Técnico de la Contaduría Pública.',
+      link: 'https://www.ctcp.gov.co/',
+    },
+    {
+      referencia: 'DIAN. (2025). Estatuto tributario.',
+      link:
+        'https://www.dian.gov.co/impuestos/factura-electronica/documentacion/Paginas/estatuto-tributario.aspx',
     },
     {
       referencia:
-        'Hacienda, M. d. (2019). Dirección de Impuestos y Aduanas Nacionales. Obtenido de Dirección de Impuestos y Aduanas Nacionales: ',
+        'Dirección de Impuestos y Aduanas Nacionales. (2019). Dirección de Impuestos y Aduanas Nacionales.',
       link: 'https://www.dian.gov.co/',
     },
     {
       referencia:
-        'IFRS. (2018). IFRS Foundation´s. Obtenido de IFRS Foundation´s: ',
+        'Gonzalez, F., y Calderón, V. (2002). Las reformas tributarias en Colombia durante el siglo XX (II). Boletines de divulgación económica, 9.',
+      link: '',
+    },
+    {
+      referencia: 'IFRS Foundation´s. (2018). IFRS Foundation´s.',
       link: 'https://www.ifrs.org/',
     },
     {
       referencia:
-        'INCP. (2018). Instituto Nacional de Contadores Públicos Colombia . Obtenido de Instituto Nacional de Contadores Públicos Colombia : ',
+        'Instituto Nacional de Contadores Públicos Colombia. (2018). Instituto Nacional de Contadores Públicos Colombia.',
       link: 'https://www.incp.org.co/',
     },
     {
       referencia:
-        'Legis (2019, 16 de abril) Nuevas responsabilidades en el RUT. ',
+        'Junta Central de Contadores. (s.f.). Junta Central de Contadores.',
+      link: 'https://www.jcc.gov.co/',
+    },
+    {
+      referencia: 'Legis. (2019). Nuevas responsabilidades en el RUT.',
       link:
         'http://www.comunidadcontable.com/BancoConocimiento/Otros/nuevas-responsabilidades-en-el-rut.asp?Miga=&CodSeccion=',
     },
     {
       referencia:
-        'MinComercio. (s.f.). Superintendencia de Sociedades. Obtenido de Superintendencia de Sociedades: ',
-      link: 'https://www.supersociedades.gov.co/SitePages/Inicio.aspx',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, I. y. (s.f.). MinComercio . Obtenido de MinComercio : ',
+        'Ministerio de Comercio Industria y Turismo. (s.f.). Ministerio de Comercio Industria y Turismo.',
       link: 'https://www.mincit.gov.co/',
     },
     {
-      referencia:
-        'Morales, A. M. C., Pineda, C. M. R., & Monsalve, O. O. V. (2019). La primera reforma tributaria en la historia de la humanidad. Entramado, 15(1), 152-163.',
-      link: '',
-    },
-    {
-      referencia:
-        'Murcia , D. (10 de Noviembre de 2011). Impuestos en Colombia . Obtenido de Impuestos en Colombia ',
+      referencia: 'Murcia, D. (2011). Impuestos en Colombia.',
       link:
         'http://inpuestos-geografia.blogspot.com/2011/11/impuesto-el-impuesto-es-una-clase-de.html',
     },
     {
       referencia:
-        'Secretaría Distrital de Hacienda (2020, 28 de octubre) Estatuto tributario. ',
-      link: 'https://www.shd.gov.co/shd/pub-tri-estatuto',
+        'Secretaria Distrital de Hacienda. (s.f.). Secretaria Distrital de Hacienda.',
+      link: 'https://www.haciendabogota.gov.co/',
     },
     {
       referencia:
-        'Secretaría Distrital de Hacienda (2020, 28 de octubre) Otros impuestos y tributos. ',
-      link: 'https://www.shd.gov.co/shd/otros-impuestos-y-tributos',
-    },
-    {
-      referencia:
-        'Serrano Valenzuela, J. (2019) Guía legis para la declaración de renta. Legis.',
+        'Serrano Valenzuela, J. (2019). Guía legis para la declaración de renta. Legis.',
       link: '',
+    },
+    {
+      referencia:
+        'Superintendencia de Sociedades. (s.f.). Superintendencia de Sociedades.',
+      link: 'https://www.supersociedades.gov.co/',
     },
   ],
   creditos: [
