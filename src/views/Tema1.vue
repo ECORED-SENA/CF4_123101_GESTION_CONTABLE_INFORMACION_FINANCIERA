@@ -2,18 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Impuestos
     
-    p Los impuestos han sido una herramienta fundamental en la organización de las sociedades desde la antigüedad. Surgieron como un mecanismo para financiar el mantenimiento del poder, la infraestructura y las necesidades de los gobiernos.
+    p(data-aos="fade-down") Los impuestos han sido una herramienta fundamental en la organización de las sociedades desde la antigüedad. Surgieron como un mecanismo para financiar el mantenimiento del poder, la infraestructura y las necesidades de los gobiernos.
 
-    .bg-full-width
-      .p-4.p-md-5
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/b8PlUo8TC2o?si=ilDZvBDsAwJv5GJY" title="Impuestos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-4(data-aos="fade-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/b8PlUo8TC2o?si=ilDZvBDsAwJv5GJY" title="Impuestos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
 
@@ -22,7 +20,7 @@
     
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5.py-4
-        p.mb-4 Con el fin de generar un aprendizaje significativo y avanzar en tan importante tema, a continuación, se relacionan los conceptos de los tributos en Colombia, que constituyen los ingresos corrientes de la nación. Así mismo, se analizan los elementos de los impuestos:
+        p.mb-4(data-aos="fade-right") Con el fin de generar un aprendizaje significativo y avanzar en tan importante tema, a continuación, se relacionan los conceptos de los tributos en Colombia, que constituyen los ingresos corrientes de la nación. Así mismo, se analizan los elementos de los impuestos:
         .row.mb-5
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -47,7 +45,7 @@
                     img(src='@/assets/curso/tema1/2.svg', alt='Texto que describa la imagen')
 
               h3.text-center Contribuciones
-              p Son tributos que paga el contribuyen al Estado por algún beneficio recibido. Por ejemplo, es el caso del impuesto de valorización cuando el Estado realiza inversiones en obras y la zona adquiere un mayor valor.
+              p Son tributos que paga el contribuyente al Estado por algún beneficio recibido. Por ejemplo, es el caso del impuesto de valorización cuando el Estado realiza inversiones en obras y la zona adquiere un mayor valor.
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -101,7 +99,7 @@
                 p Es el porcentaje que se aplica a la base gravable para determinar el impuesto a cargo. Pinillos, J. (2014, 9-19.). 
           .col-lg-4.order-lg-1
             figure
-              img(src='@/assets/curso/tema1/4.png', alt='')
+              img(src='@/assets/curso/tema1/4.png', alt='', style="max-width: 350px").mx-auto
 
     separador
 
@@ -155,7 +153,6 @@
           li.mb-0.d-flex
             i.far.fa-folder-open.bg-color-7
             p.mb-0 Impuesto de registro.
-          
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -167,7 +164,7 @@
     .row.mb-5
       .col-lg-6.order-2
         figure
-          img(src="@/assets/curso/tema1/10.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/10.svg", data-aos="zoom-in", style="width: 550px").m-auto
       .col-lg-6.order-1.mb-3.mb-lg-0
         h3.bg-color-4.tarjeta.p-3 Impuestos nacionales
         p(data-aos="fade-left") Son impuestos administrados por la nación, siendo este su ámbito de aplicación. Son emitidos por el poder ejecutivo y sancionados por el presidente de la república una vez que hayan sido aprobados por el congreso.
@@ -212,9 +209,6 @@
         h3.bg-color-4.tarjeta.p-3.mb-5 Clasificación de bienes y servicios
         .row.mb-5
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-            //- estas clases tambien tienen un modificador --borde
             .tarjeta--boton.bg-color-3.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -224,9 +218,6 @@
               h3.text-center Gravados
               p Son aquellos que originan impuesto, teniendo en cuenta que se les asigna una tarifa establecida por disposición legal. Por lo anterior, es necesario verificar la tarifa general y las tarifas diferenciales para su correcta aplicación. Se localizan en el artículo 468 del Estatuto Tributario (ET).
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
-            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-            //- estas clases tambien tienen un modificador --borde
             .tarjeta--boton.bg-color-3.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -236,9 +227,6 @@
               h3.text-center Exentos
               p Son bienes que por normativa se encuentran gravados a la tarifa del 0%. Quienes produzcan bienes exentos son responsables del impuesto a las ventas y, por tanto, deben declarar IVA, pero quienes comercialicen bienes exentos no son responsables del impuesto a las ventas. De este modo, sólo los productores de bienes exentos pueden solicitar como descuento el IVA pagado en sus compras. Se encuentran señalados en los artículos 477 a 481 del Estatuto Tributario (ET).
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-            //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
-            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-            //- estas clases tambien tienen un modificador --borde
             .tarjeta--boton.bg-color-3.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-7
@@ -319,9 +307,6 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .tarjeta--container.row.mb-5
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
           .col-md.tarjeta.bg-color-3.p-5(data-aos="fade-down")
             .row.justify-content-center.mb-4
               .col-6
@@ -331,9 +316,6 @@
             h2.text-center Bimestral
             p La declaración y pago bimestral para aquellos responsables de este impuesto, grandes contribuyentes y aquellas personas jurídicas y naturales cuyos ingresos brutos a 31 de diciembre del año gravable anterior sean iguales o superiores a noventa y dos mil (92.000) UVT y para los responsables de que tratan los artículos 477 y 481 de este Estatuto. Los períodos bimestrales son: enero-febrero; marzo-abril; mayo-junio; julio-agosto; septiembre-octubre; y noviembre-diciembre.
 
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
           .col-md.tarjeta.bg-color-10.p-5(data-aos="fade-up")
             .row.justify-content-center.mb-4
               .col-6
@@ -374,7 +356,7 @@
         .row
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/tema1/21.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/21.svg", data-aos="zoom-in", style="width: 340px").m-auto
           .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
               div(titulo="Sujeto activo")
@@ -402,7 +384,7 @@
         .row.mb-5
           .col-lg-3.order-2
             figure
-              img(src="@/assets/curso/tema1/23.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/23.svg", data-aos="zoom-in", style="width: 300px").m-auto
           .col-lg-9.order-1.mb-3.mb-lg-0
             div.bg-color-9.tarjeta.p-5.mb-5(data-aos="fade-right")
               ul.lista-ul--color
@@ -472,42 +454,33 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10.mb-4.mb-3
-        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        //- estas clases tambien tienen un modificador --borde
         .tarjeta-numerada.color-primario.p-3
           .tarjeta-numerada__numero
             .h2 1
           .row.align-items-center.justify-content-end
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/26.svg")
+                img(src="@/assets/curso/tema1/26.svg", style="max-width: 300px").mx-auto
             .col-lg-7
               p.mb-0 La prestación de los servicios de telefonía móvil, internet y navegación móvil, y servicio de datos según lo dispuesto en el artículo 512-2 de este Estatuto.
       .col-lg-10.mb-4.mb-3
-        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        //- estas clases tambien tienen un modificador --borde
         .tarjeta-numerada.color-primario.p-3
           .tarjeta-numerada__numero
             .h2 2
           .row.align-items-center.justify-content-end
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/27.svg")
+                img(src="@/assets/curso/tema1/27.svg", style="max-width: 300px").mx-auto
             .col-lg-7
               p.mb-0 Las ventas de algunos bienes corporales muebles, de producción doméstica o importados, según lo dispuesto en los artículos 512-3, 512-4 y 512-5 de este Estatuto. El impuesto al consumo no se aplicará a las ventas de los bienes mencionados en los artículos 512-3 y 512-4 si son activos fijos para el vendedor, salvo de que se trate de los automotores y demás activos fijos que se vendan a nombre y por cuenta de terceros y para los aerodinos.
       .col-lg-10.mb-4.mb-3
-        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        //- estas clases tambien tienen un modificador --borde
         .tarjeta-numerada.color-primario.p-3
           .tarjeta-numerada__numero
             .h2 3
           .row.align-items-center.justify-content-end
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/28.svg")
+                img(src="@/assets/curso/tema1/28.svg", style="max-width: 300px").mx-auto
             .col-lg-7
               p.mb-0 El servicio de expendio de comidas y bebidas preparadas en restaurantes, cafeterías, autoservicios, heladerías, fruterías, pastelerías y panaderías para consumo en el lugar, para ser llevadas por el comprador o entregadas a domicilio, los servicios de alimentación bajo contrato, incluyendo el servicio de catering, y el servicio de expendio de comidas y bebidas alcohólicas para consumo dentro de bares, tabernas y discotecas; (sic) según lo dispuesto en los artículos 426, 512-8, 512-9, 512-10, 512-11, 512- 12 y 512-13 de este estatuto. Este impuesto no es aplicable a las actividades de expendio de bebidas y comidas bajo franquicias.
 
@@ -520,14 +493,14 @@
         .row.mb-5
           .col-lg-2.order-2
             figure
-              img(src="@/assets/curso/tema1/29.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/29.svg", data-aos="zoom-in", style="max-width: 350px").mx-auto
           .col-lg-10.order-1.mb-3.mb-lg-0
             p Este impuesto fue creado mediante la Ley 1943 de 2018 y ratificado en la Ley 2010 de 2019.
             p <b>El artículo 903 del Estatuto Tributario (ET) expresa.</b> “es un modelo de tributación opcional de determinación integral, de declaración anual y anticipo bimestral, que integra el impuesto sobre la renta, el impuesto nacional al consumo y el impuesto de industria y comercio consolidado, a cargo de los contribuyentes que opten voluntariamente por acogerse al mismo”.
         .row.mb-5
           .col-lg-5.order-2
             figure
-              img(src="@/assets/curso/tema1/30.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/30.svg", data-aos="zoom-in", style="max-width: 450px").mx-auto
           .col-lg-7.order-1.mb-3.mb-lg-0
             h5.mb-5 ARTÍCULO 904- Estatuto Tributario (ET). Hecho generador y base gravable del impuesto unificado bajo el régimen simple de tributación (simple). 
             p El hecho generador del impuesto unificado bajo el régimen simple de tributación (SIMPLE) es la obtención de ingresos susceptibles de producir un incremento en el patrimonio, y su base gravable está integrada por la totalidad de los ingresos brutos, ordinarios y extraordinarios, percibidos en el respectivo periodo gravable.
@@ -572,7 +545,7 @@
     h3.bg-color-4.tarjeta.p-3.mb-4 Impuestos Municipales
     p.mb-4 Estos impuestos son recaudados por el municipio. Son instituidos por el concejo distrital o municipal, mediante acuerdos. 
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-11")
       div(titulo="Impuesto de Industria y Comercio")
         p El impuesto de Industria y Comercio se genera por el ejercicio o realización directa o indirecta de cualquier actividad industrial, comercial o de servicios en jurisdicción del Distrito Capital de Bogotá, ya sea que se cumplan de forma permanente u ocasional, en inmueble determinado, con establecimiento de comercio o sin ellos.
         p <b>Sujeto activo:</b>  es un impuesto administrado por el municipio o distrito.
@@ -614,9 +587,6 @@
       div(titulo="Sobretasa a la gasolina motor y al ACPM ")
         p-3 Es un tributo que se declara y paga por el consumo de gasolina motor extra o corriente nacional o importada y/o ACPM nacional o importado, en el Distrito Capital de Bogotá. No genera sobretasa las exportaciones de gasolina motor extra y corriente o de ACPM.
         p.mb-0 La sobretasa se causa en el momento en que el distribuidor mayorista, productor o importador enajena la gasolina motor extra o corriente o ACPM, al distribuidor minorista o al consumidor final (Secretaría Distrital de Hacienda, 2020, 20 de octubre).
-      
-
-
 
 </template>
 

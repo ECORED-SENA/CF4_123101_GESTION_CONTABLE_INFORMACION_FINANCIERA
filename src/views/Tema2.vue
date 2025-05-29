@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Regímenes
@@ -10,7 +10,7 @@
     .row.align-items-center
       .col-lg-2.order-2
         figure
-          img(src="@/assets/curso/tema2/1.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/1.svg", data-aos="zoom-in", style="max-width: 350px").mx-auto
       .col-lg-10.order-1.mb-3.mb-lg-0
         p.mb-0 Los regímenes tributarios establecen las normas y clasificaciones que rigen la obligación de contribuir al sostenimiento del Estado. Su estructura permite diferenciar a los contribuyentes según su actividad económica, ingresos y responsabilidades fiscales. Comprender estos regímenes es esencial para el cumplimiento de la normativa y la correcta aplicación de los impuestos.
 
@@ -24,7 +24,7 @@
         .row.mb-5
           .col-lg-4.order-2
             figure
-              img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in", style="max-width: 550px").mx-auto
           .col-lg-8.order-1.mb-3.mb-lg-0
             div.bg-color-9.tarjeta.p-4.mb-5(data-aos="fade-right")
               p <b>De acuerdo con el Estatuto Tributario-0624 de 1989</b>, es fundamental atender la clasificación de los contribuyentes y no contribuyentes; por ende, es importante identificar el tipo de impuesto y las responsabilidades que se tiene en cada uno de estos.
@@ -37,7 +37,7 @@
               p.mb-0 Hace referencia a todos los individuos de la especie humana, cualquiera que sea su edad, sexo, estirpe o condición. Art. 74 Código Civil. Hace referencia a empresas de propietario único.
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/tema2/3.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/3.svg", data-aos="zoom-in", style="max-width: 450px").mx-auto
           .col-lg-4.mb-3.mb-lg-0
             div.bg-color-12.tarjeta.p-4.mb-5(data-aos="fade-right").h-100
               h5 Persona jurídica
@@ -66,7 +66,7 @@
         .row.mb-5.justify-content-center
           .col-lg-4.order-2.ps-lg-0
             figure
-              img(src="@/assets/curso/tema2/4.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/4.svg", data-aos="zoom-in", style="max-width: 450px").mx-auto
           .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
             div.bg-color-9.p-5.mb-5(data-aos="fade-right")
               h5 Algunos de los contribuyentes de este régimen son: 
@@ -76,7 +76,7 @@
                   p.mb-0 Personas naturales residentes y no residentes y sucesiones ilíquidas.
                 li.mb-3.d-flex
                   i.far.fa-folder-open.bg-color-14
-                  p.mb-0 Impuesto Sociedades, entidades nacionales y otros contribuyentes.
+                  p.mb-0 Impuesto sociedades, entidades nacionales y otros contribuyentes.
                 li.mb-3.d-flex
                   i.far.fa-folder-open.bg-color-14
                   p.mb-0 Las sociedades anónimas y asimiladas.
@@ -104,7 +104,7 @@
         .row.mb-5.justify-content-center
           .col-lg-4.order-2.ps-lg-0
             figure
-              img(src="@/assets/curso/tema2/5.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/5.svg", data-aos="zoom-in", style="max-width: 450px").mx-auto
           .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
             div.bg-color-9.p-5.mb-5(data-aos="fade-right")
               h5.mb-5.mt-3 Dentro de esta clasificación encontramos: 
@@ -114,7 +114,7 @@
     .row.mb-5.justify-content-center
       .col-lg-4.order-2.ps-lg-0
         figure
-          img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in", style="max-width: 450px").mx-auto
       .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
         div.bg-color-9.p-5.mb-5(data-aos="fade-right")
           h5.mb-3 Algunos de los contribuyentes de este régimen son: 
@@ -149,7 +149,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/7.svg")
+                img(src="@/assets/curso/tema2/7.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 1- Que se trate de una persona natural que desarrolle una empresa o de una persona jurídica en la que sus socios, partícipes o accionistas sean personas naturales, nacionales o extranjeras, residentes en Colombia.
       .col-lg-10.mb-4.mb-3
@@ -160,7 +160,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/8.svg")
+                img(src="@/assets/curso/tema2/8.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 2- Que en el año gravable anterior hubieren obtenido ingresos brutos, ordinarios o extraordinarios, inferiores a 80.000 UVT. En el caso de las empresas o personas jurídicas nuevas, la inscripción en el impuesto unificado bajo el régimen simple de tributación – SIMPLE, estará́ condicionada a que los ingresos del año no superen estos límites.
       .col-lg-10.mb-4.mb-3
@@ -171,7 +171,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/9.svg")
+                img(src="@/assets/curso/tema2/9.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 3- Si uno de los socios persona natural tiene una o varias empresas o participa en una o varias sociedades, inscritas en el impuesto unificado bajo el régimen simple de tributación - SIMPLE, los límites máximos de ingresos brutos se revisarán de forma consolidada y en la proporción a su participación en dichas empresas o sociedades.
       .col-lg-10.mb-4.mb-3
@@ -182,7 +182,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/10.svg")
+                img(src="@/assets/curso/tema2/10.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 4- Si uno de los socios persona natural tiene una participación superior al 10% en una o varias sociedades no inscritas en el impuesto unificado bajo el régimen simple de tributación - SIMPLE, los límites máximos de ingresos brutos se revisarán de forma consolidada y en la proporción a su participación en dichas sociedades.
       .col-lg-10.mb-4.mb-3
@@ -193,7 +193,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/7.svg")
+                img(src="@/assets/curso/tema2/7.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 5- Si uno de los socios persona natural es gerente o administrador de otras empresas o sociedades, los límites máximos de ingresos brutos se revisarán de forma consolidada con los de las empresas o sociedades que administra.
       .col-lg-10.mb-4.mb-3
@@ -204,7 +204,7 @@
           .row.align-items-center.justify-content-end
             .col-lg-2.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema2/8.svg")
+                img(src="@/assets/curso/tema2/8.svg", style="max-width: 300px").mx-auto
             .col-lg-9
               p.mb-0 6- La persona natural o jurídica debe estar al día con sus obligaciones tributarias de carácter nacional, departamental y municipal, y con sus obligaciones de pago de contribuciones al Sistema de Seguridad Social Integral. También debe contar con la inscripción respectiva en el Registro Único Tributario - RUT y con todos los mecanismos electrónicos de cumplimiento, firma y factura electrónica.
 
@@ -229,7 +229,7 @@
               li.mb-3.d-flex
                 i.far.fa-folder-open.bg-color-14
                 p.mb-0 Las sociedades de mejoras públicas, las asociaciones de padres de familia, los organismos de acción comunal, las juntas de defensa civil, las juntas de copropietarios administradoras de edificios organizados en propiedad horizontal o de copropietarios de conjuntos residenciales, las asociaciones de exalumnos, las asociaciones de hogares comunitarios y hogares infantiles del Instituto Colombiano de Bienestar Familiar o autorizados por este y las asociaciones de adultos mayores autorizados por el Instituto Colombiano de Bienestar Familiar.
-        .row.mb-5.justify-content-center
+        .row.justify-content-center
           .col-lg-5.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema2/12.svg", data-aos="zoom-in")
