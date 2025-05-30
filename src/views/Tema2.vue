@@ -184,7 +184,7 @@
               figure
                 img(src="@/assets/curso/tema2/10.svg", style="max-width: 300px").mx-auto
             .col-lg-9
-              p.mb-0 4- Si uno de los socios persona natural tiene una participación superior al 10% en una o varias sociedades no inscritas en el impuesto unificado bajo el régimen simple de tributación - SIMPLE, los límites máximos de ingresos brutos se revisarán de forma consolidada y en la proporción a su participación en dichas sociedades.
+              p.mb-0 4- Si uno de los socios persona natural tiene una participación superior al 10 % en una o varias sociedades no inscritas en el impuesto unificado bajo el régimen simple de tributación - SIMPLE, los límites máximos de ingresos brutos se revisarán de forma consolidada y en la proporción a su participación en dichas sociedades.
       .col-lg-10.mb-4.mb-3
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones

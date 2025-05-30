@@ -225,7 +225,7 @@
                     img(src='@/assets/curso/tema1/12.svg', alt='Texto que describa la imagen')
 
               h3.text-center Exentos
-              p Son bienes que por normativa se encuentran gravados a la tarifa del 0%. Quienes produzcan bienes exentos son responsables del impuesto a las ventas y, por tanto, deben declarar IVA, pero quienes comercialicen bienes exentos no son responsables del impuesto a las ventas. De este modo, sólo los productores de bienes exentos pueden solicitar como descuento el IVA pagado en sus compras. Se encuentran señalados en los artículos 477 a 481 del Estatuto Tributario (ET).
+              p Son bienes que por normativa se encuentran gravados a la tarifa del 0 %. Quienes produzcan bienes exentos son responsables del impuesto a las ventas y, por tanto, deben declarar IVA, pero quienes comercialicen bienes exentos no son responsables del impuesto a las ventas. De este modo, sólo los productores de bienes exentos pueden solicitar como descuento el IVA pagado en sus compras. Se encuentran señalados en los artículos 477 a 481 del Estatuto Tributario (ET).
           .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
             .tarjeta--boton.bg-color-3.p-4.h-100
               .row.justify-content-center.mb-3
@@ -539,8 +539,8 @@
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4.mb-5 3. Loterías foráneas
               p Este impuesto se aplica a los premios de las loterías y se conoce como el impuesto a ganadores; aunado a ello, recae sobre las empresas de lotería y operadores autorizados. 
-              p La venta de loterías foráneas en jurisdicción del Distrito Capital genera a su favor y, a cargo de las empresas de lotería u operadores autorizados, un impuesto del diez por ciento (10%) sobre el valor nominal de cada billete o fracción. 
-              p Los ganadores de premios de lotería pagarán al Distrito Capital, según el caso, un impuesto del diecisiete por ciento (17%) sobre el valor nominal del premio, valor que será retenido por la lotería responsable u operador autorizado al momento de pagar el premio (Secretaría Distrital de Hacienda, 2020, 28 de octubre).
+              p La venta de loterías foráneas en jurisdicción del Distrito Capital genera a su favor y, a cargo de las empresas de lotería u operadores autorizados, un impuesto del diez por ciento (10 %) sobre el valor nominal de cada billete o fracción. 
+              p Los ganadores de premios de lotería pagarán al Distrito Capital, según el caso, un impuesto del diecisiete por ciento (17 %) sobre el valor nominal del premio, valor que será retenido por la lotería responsable u operador autorizado al momento de pagar el premio (Secretaría Distrital de Hacienda, 2020, 28 de octubre).
 
     h3.bg-color-4.tarjeta.p-3.mb-4 Impuestos Municipales
     p.mb-4 Estos impuestos son recaudados por el municipio. Son instituidos por el concejo distrital o municipal, mediante acuerdos. 
