@@ -22,8 +22,8 @@ export default {
       introduccion:
         'Evaluar los conceptos fundamentales relacionados con las obligaciones tributarias territoriales y nacionales.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -156,8 +156,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto:
-                '¿Qué entidad es responsable de recaudar impuestos municipales?',
+              texto: 'Gobernación departamental.',
               esCorrecta: false,
             },
             {

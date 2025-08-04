@@ -351,12 +351,11 @@ export default {
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Cielo Damaris Angúlo Rodriguez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

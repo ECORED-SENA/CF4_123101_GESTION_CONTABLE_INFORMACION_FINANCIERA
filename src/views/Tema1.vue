@@ -69,14 +69,13 @@
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Elementos de los impuestos
-    
-    p.mb-4 Luego de estudiar las diferencias entre los tributos: tasas, contribuciones e impuestos; ahora se profundizará en las generalidades de los impuestos. Conforme a esto, se relacionan los siguientes elementos:
 
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
+        p.mb-4 Luego de estudiar las diferencias entre los tributos: tasas, contribuciones e impuestos; ahora se profundizará en las generalidades de los impuestos. Conforme a esto, se relacionan los siguientes elementos:
         .row.justify-content-center.mb-5.align-items-center
-          .col-lg-8.mb-3.mb-lg-0.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6")
+          .col-lg-9.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-md-6 col-xl-4")
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center
                 img(src='@/assets/curso/tema1/5.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.mb-4.bg-color-4.px-4 Sujeto activo
@@ -97,9 +96,9 @@
                 img(src='@/assets/curso/tema1/5.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.mb-4.bg-color-4.px-4 Tarifa
                 p Es el porcentaje que se aplica a la base gravable para determinar el impuesto a cargo. Pinillos, J. (2014, 9-19.). 
-          .col-lg-4.order-lg-1
+          .col-lg-3.order-lg-1
             figure
-              img(src='@/assets/curso/tema1/4.png', alt='', style="max-width: 350px").mx-auto
+              img(src='@/assets/curso/tema1/4.png', alt='', style="max-width: 280px").mx-auto
 
     separador
 
